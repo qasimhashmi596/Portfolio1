@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Qasim Shah| .NET Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#512bd4',
+                        secondary: '#2b1d66',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div>
+                        <a href="#" class="flex items-center py-4 px-2">
+                            <span class="font-semibold text-gray-900 text-xl">Muhammad Qasim Shah</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="#home" class="py-4 px-2 text-primary font-semibold border-b-4 border-primary">Home</a>
+                    <a href="#about" class="py-4 px-2 text-gray-500 font-semibold hover:text-primary transition duration-300">About</a>
+                    <a href="#skills" class="py-4 px-2 text-gray-500 font-semibold hover:text-primary transition duration-300">Skills</a>
+                   <!-- <a href="#projects" class="py-4 px-2 text-gray-500 font-semibold hover:text-primary transition duration-300">Projects</a>-->
+                    <a href="#contact" class="py-4 px-2 text-gray-500 font-semibold hover:text-primary transition duration-300">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <svg class="w-6 h-6 text-gray-500" 
+                            x-show="!showMenu"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hidden mobile-menu">
+            <ul>
+                <li><a href="#home" class="block text-sm px-2 py-4 bg-primary text-white font-semibold">Home</a></li>
+                <li><a href="#about" class="block text-sm px-2 py-4 hover:bg-gray-100 transition duration-300">About</a></li>
+                <li><a href="#skills" class="block text-sm px-2 py-4 hover:bg-gray-100 transition duration-300">Skills</a></li>
+                <li><a href="#projects" class="block text-sm px-2 py-4 hover:bg-gray-100 transition duration-300">Projects</a></li>
+                <li><a href="#contact" class="block text-sm px-2 py-4 hover:bg-gray-100 transition duration-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="py-20 bg-gradient-to-r from-primary to-secondary text-white">
+        <div class="container mx-auto px-6 text-center">
+            <div class="flex flex-col md:flex-row items-center justify-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <img src="istockphoto-527899020-612x612.jpg" alt="Profile" class="rounded-full w-48 h-48 mx-auto border-4 border-white shadow-lg">
+                </div>
+                <div class="md:w-1/2 text-left md:pl-12">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Muhammad Qasim Shah</h1>
+                    <h2 class="text-2xl md:text-3xl font-semibold mb-6">Full Stack .NET Developer</h2>
+                    <p class="text-lg mb-8">Building robust web applications with C#, ASP.NET Core, and modern JavaScript framework like React JS</p>
+                    <div class="flex space-x-4 justify-center md:justify-start">
+                        <a href="#contact" class="bg-white text-primary px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">Hire Me</a>
+                        <a href="#" class="border-2 border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary transition duration-300">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">About Me</h2>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Who I Am</h3>
+                    <p class="text-gray-600 mb-6">
+                        I am a passionate and motivated Fresher .NET Developer with a strong foundation in C#, ASP.NET, and SQL Server. I enjoy building scalable and efficient web applications using the .NET framework and have hands-on experience with MVC, Entity Framework, and RESTful APIs. Eager to learn and contribute to innovative projects, I am committed to writing clean, maintainable code while continuously improving my skills in software development. 
+                    </p>
+                    <p class="text-gray-600 mb-6">
+                        My approach combines clean code principles with modern development practices to create applications that are 
+                        both powerful and easy to maintain.
+                    </p>
+                    
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">My Expertise</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Backend Development</h4>
+                            <div class="w-full bg-gray-200 rounded-full h-2.5 mt-2">
+                                <div class="bg-primary h-2.5 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Database Design</h4>
+                            <div class="w-full bg-gray-200 rounded-full h-2.5 mt-2">
+                                <div class="bg-primary h-2.5 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">API Development</h4>
+                            <div class="w-full bg-gray-200 rounded-full h-2.5 mt-2">
+                                <div class="bg-primary h-2.5 rounded-full" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Frontend Integration</h4>
+                            <div class="w-full bg-gray-200 rounded-full h-2.5 mt-2">
+                                <div class="bg-primary h-2.5 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Technical Skills</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Backend Skills -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-primary mb-4">
+                        <i class="fas fa-server text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Backend Development</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <span class="bg-primary rounded-full w-2 h-2 mr-2"></span>
+                            C# / .NET Core / .NET 5+
+                        </li>
+                        <li class="flex items-center">
+                            <span class="bg-primary rounded-full w-2 h-2 mr-2"></span>
+                            ASP.NET Core MVC
+                        </li>
+                        <li class="flex items-center">
+                            <span class="bg-primary rounded-full w-2 h-2 mr-2"></span>
+                            ASP.NET Web API
+                        </li>
+                        <li class="flex items-center">
+                            <span class="bg-primary rounded-full w-2 h-2 mr-2"></span>
+                            Entity Framework Core
+                        </li>
+                        <li class="flex items-center">
+                            <span class="bg-primary rounded-full w-2 h-2 mr-2"></span>
+                            LINQ & Lambda Expressions
+                        </li>
+                        <li class="flex items-center">
+                            <span class="bg-primary rounded-full w-2 h-2 mr-2"></span>
+                            Dependency Injection
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Frontend Skills -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-primary mb-4">
+                        <i class="fas fa-laptop-code text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Frontend & UI</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <span class="bg-primary rounded-full w-2 h-2 mr-2"></span>
+                            HTML5 & CSS3
+                        </li>
+                        <li class="flex items-center">
+                            <span class="bg-primary rounded-full w-2 h-2 mr-2"></span>
+                            JavaScript & jQuery
+                        </li>
+                        <li class="flex items-center">
+                            <span class="bg-primary rounded-full w-2 h-2 mr-2"></span>
+                            Razor Pages
+                        </li>
+                        <li class="flex items-center">
+                            <span class="bg-primary rounded-full w-2 h-2 mr-2"></span>
+                            Bootstrap & Tailwind CSS
+                        </li>
+                        <li class="flex items-center">
+                            <span class="bg-primary rounded-full w-2 h-2 mr-2"></span>
+                            Responsive Design
+                        </li>
+                        <li class="flex items-center">
+                            <span class="bg-primary rounded-full w-2 h-2 mr-2"></span>
+                            AJAX & Fetch API
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Database & Tools -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-primary mb-4">
+                        <i class="fas fa-database text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Database & Tools</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <span class="bg-primary rounded-full w-2 h-2 mr-2"></span>
+                            Microsoft SQL Server
+                        </li>
+                        <li class="flex items-center">
+                            <span class="bg-primary rounded-full w-2 h-2 mr-2"></span>
+                            Azure SQL Database
+                        </li>
+                        <li class="flex items-center">
+                            <span class="bg-primary rounded-full w-2 h-2 mr-2"></span>
+                            Entity Framework Migrations
+                        </li>
+                        <li class="flex items-center">
+                            <span class="bg-primary rounded-full w-2 h-2 mr-2"></span>
+                            Git & GitHub
+                        </li>
+                        <li class="flex items-center">
+                            <span class="bg-primary rounded-full w-2 h-2 mr-2"></span>
+                            Visual Studio & VS Code
+                        </li>
+                        <li class="flex items-center">
+                            <span class="bg-primary rounded-full w-2 h-2 mr-2"></span>
+                            MySQL
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+                
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Get In Touch</h2>
+            
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-10 md:mb-
